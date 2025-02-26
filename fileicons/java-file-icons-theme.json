@@ -1,0 +1,56 @@
+{
+  "iconDefinitions": {
+    "_java_class": {
+      "iconPath": "./icons/java-class.svg"
+    },
+    "_java_interface": {
+      "iconPath": "./icons/java-interface.svg"
+    },
+    "_java_enum": {
+      "iconPath": "./icons/java-enum.svg"
+    },
+    "_java_abstract": {
+      "iconPath": "./icons/java-abstract.svg"
+    }
+  },
+  "fileExtensions": {
+    "java": "_java_class"
+  },
+  "languageIds": {
+    "java": "_java_class"
+  },
+  "light": {
+    "fileExtensions": {
+      "java": "_java_class"
+    },
+    "languageIds": {
+      "java": "_java_class"
+    },
+    "fileNames": {
+      "ColorEnum.java": "_java_enum",
+      "RegularClass.java": "_java_class",
+      "MyInterface.java": "_java_interface",
+      "AbstractShape.java": "_java_abstract"
+    }
+  },
+  "highContrast": {
+    "fileExtensions": {
+      "java": "_java_class"
+    },
+    "languageIds": {
+      "java": "_java_class"
+    },
+    "fileNames": {
+      "ColorEnum.java": "_java_enum",
+      "RegularClass.java": "_java_class",
+      "MyInterface.java": "_java_interface",
+      "AbstractShape.java": "_java_abstract"
+    }
+  },
+  "fileNames": {
+    "ColorEnum.java": "_java_enum",
+    "RegularClass.java": "_java_class",
+    "MyInterface.java": "_java_interface",
+    "AbstractShape.java": "_java_abstract"
+  }
+}

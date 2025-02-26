@@ -1,0 +1,51 @@
+{
+  "name": "java-file-icons",
+  "displayName": "Java File Icons",
+  "description": "VSCode extension that identifies different types of Java files and changes their icons accordingly",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.97.0"
+  },
+  "categories": [
+    "Other",
+    "Themes"
+  ],
+  "activationEvents": [
+    "onLanguage:java"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "java-file-icons.refreshIcons",
+        "title": "Refresh Java File Icons"
+      }
+    ],
+    "iconThemes": [
+      {
+        "id": "java-file-icons",
+        "label": "Java File Icons",
+        "path": "./fileicons/java-file-icons-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.97.0",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "20.x",
+    "@typescript-eslint/eslint-plugin": "^8.22.0",
+    "@typescript-eslint/parser": "^8.22.0",
+    "eslint": "^9.19.0",
+    "typescript": "^5.7.3",
+    "@vscode/test-cli": "^0.0.10",
+    "@vscode/test-electron": "^2.4.1"
+  }
+}
